@@ -52,7 +52,7 @@ public class MvcConfiguration implements WebMvcConfigurer{
 			ds.setDriverClassName("com.mysql.cj.jdbc.Driver");
 			ds.setUrl("jdbc:mysql://localhost:3306/fooddeliveryapp");
 			ds.setUsername("root");
-			ds.setPassword("21KN1A05H4");
+			ds.setPassword("your password");
 		return ds;
 	}
 	
