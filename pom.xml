@@ -15,7 +15,6 @@
         <java.version>1.8</java.version>
         <spring.version>5.2.9.RELEASE</spring.version>
         <hibernate.version>5.6.15.Final</hibernate.version>
-        <tomcat.version>9.0.80</tomcat.version>
     </properties>
 
     <dependencies>
@@ -98,18 +97,6 @@
                 <configuration>
                     <source>${java.version}</source>
                     <target>${java.version}</target>
-                </configuration>
-            </plugin>
-
-            <!-- Tomcat Plugin -->
-            <plugin>
-                <groupId>org.apache.tomcat.maven</groupId>
-                <artifactId>tomcat7-maven-plugin</artifactId>
-                <version>2.2</version>
-                <configuration>
-                    <url>http://localhost:8080/manager/text</url>
-                    <server>TomcatServer</server>
-                    <path>/FoodDeliveryApplication</path>
                 </configuration>
             </plugin>
 
