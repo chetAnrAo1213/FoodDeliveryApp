@@ -8,7 +8,6 @@ Server :- Tomcat(V9).
 DataBase :- MySql(V8), MongoDB(V2).            
 Project Management :- Maven.            
 _____________________________________________________________
-__________________________________________________
 # Demo Video
 Using the Application through Account Creation/User Registration.
 _________________________________________________
@@ -20,8 +19,7 @@ https
 _________________________________________________
 Data Base Review for the User.
 ________________________________________________
-https
+https://github.com/user-attachments/assets/aa73a310-87c7-4182-8efd-755d50a65ec9
+
 _________________________________________________
-Server Side Hibernate Queries.
-________________________________________________
-https:
+
